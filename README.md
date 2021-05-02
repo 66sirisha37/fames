@@ -8,14 +8,12 @@ ImageScraper_Instagram_MobileView.ipynb opens Instagram in mobile mode, opens th
 
 Most possible exceptions are handelled through Try - Except blocks. 
 
-Requirements: 
+### Requirements: 
 pip install selenium 
 pip install wget 
 pip install tqdm
 
-
-
---------------- Inputs are to be given in the first cell of notebook -------------------------------
+### --- Inputs are to be given in the first cell of notebook ---
 
 ### Instagram Username and Password
 IG_username = "Enter username here" ### -- ENTER USERNAME HERE
@@ -23,12 +21,11 @@ IG_password = "Enter password here" ### -- ENTER PASSWORD HERE
 
 chromedriver_path = "chromedriver.exe" ## CHANGE CHROME DRIVER PATH HERE
 
-### Give profile name of user as string ###Give Hashtags with '#' before the string
+###Give profile name of user as string ###Give Hashtags with '#' before the string
 profiles_hashtags = [
     #Profiles Below
     "instagram",
-    "creators"
-    
+    "creators",
     #Hashtags here
     "#pencil",
     "#Sketch"
