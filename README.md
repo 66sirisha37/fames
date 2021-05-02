@@ -9,27 +9,27 @@ Scrape images from Instagram public profiles through python and selenium. Downlo
 Most possible exceptions are handelled through Try - Except blocks. You may scrape images without having to worry about 403 CORB security issue!
 
 ### Requirements: 
-pip install selenium 
-pip install wget 
-pip install tqdm
+pip install selenium <br>
+pip install wget <br>
+pip install tqdm <br>
 
 --- Inputs are to be given in the first cell of notebook ---
 
-Instagram Username and Password
-IG_username = "Enter username here"  -- ENTER USERNAME HERE
-IG_password = "Enter password here"  -- ENTER PASSWORD HERE
+Instagram Username and Password <br>
+IG_username = "Enter username here"  -- ENTER USERNAME HERE <br>
+IG_password = "Enter password here"  -- ENTER PASSWORD HERE <br>
 
 chromedriver_path = "chromedriver.exe" CHANGE CHROME DRIVER PATH HERE
 
---- **Give profile name of user as string Give Hashtags with '#' before the string**
-profiles_hashtags = [
-    #Profiles Below
-    "instagram",
-    "creators",
-    #Hashtags here
-    "#pencil",
-    "#Sketch"
-    ]
-textfile_name = "instagram_pics" ## Enter text file name, that saves all image URLs. [Multiple files are created]
+--- **Give profile name of user as string Give Hashtags with '#' before the string** <br> 
+profiles_hashtags = [ <br>
+    #Profiles Below <br>
+    "instagram", <br>
+    "creators", <br>
+    #Hashtags here <br>
+    "#pencil", <br>
+    "#Sketch" <br>
+    ] <br>
+textfile_name = "instagram_pics" ## Enter text file name, that saves all image URLs. [Multiple files are created] <br>
 folder_name = "IG_Pictures" ## Folder Name to save all images - Creates a folder if not available.
 
